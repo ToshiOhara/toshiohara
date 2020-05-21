@@ -1,0 +1,87 @@
+body{
+	margin:0px;
+	width:960px;
+}
+
+.site-logo{
+	float:left;
+	height:76px;
+	width:26.5%;
+	transition:all 0.5s;
+}
+
+.site-logo:hover{
+	color:gray;
+	background-color:#02e4d2;
+	transition:all 0.5s;
+}
+
+.site-logo_1{
+	margin:6px;
+	padding:0;
+	text-align:center;
+}
+
+.site-logo_2{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+header{
+	margin-top:0px;
+	height:76px;
+	background-color:#00a395;
+	font-family:'Bebas Neue', cursive;
+}
+
+header a:link{color:black;}
+header a:visited{color:black;}
+
+.header-menu li{
+	display:block;
+	width:12.25%;
+	font-size:18;
+	float:left;
+	text-align:center;
+	list-style:none;
+	line-height:76px;
+	transition:all 0.5s;
+}
+
+.header-menu li:hover{
+	color:gray;
+	background-color:#02e4d2;
+	transition:all 0.8s;
+}
+/*headerここまで*/
+
+.content{
+	background-image: url("img_profile_1.jpg");
+	background-size:960px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.profile_article{
+	padding-bottom:20px;
+	padding-left:55px;
+	margin-bottom:0px;
+	background-color:rgba(0, 0, 0, 0.6);
+	color:white;
+}
+
+.profile_article h2{
+	margin-top:250px;
+	padding-bottom:2px;
+	margin-bottom:0px;
+}
+
+footer{
+	background-color:#00a395;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+footer #copyright{
+	text-align:center;
+}
