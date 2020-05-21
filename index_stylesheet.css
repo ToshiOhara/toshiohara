@@ -1,0 +1,84 @@
+body{
+	margin:0;
+	width:960px;
+}
+
+.site-logo{
+	float:left;
+	height:76px;
+	width:26.5%;
+	transition:all 0.5s;
+}
+
+.site-logo:hover{
+	color:gray;
+	background-color:#02e4d2;
+	transition:all 0.5s;
+}
+
+.site-logo_1{
+	margin:5px;
+	padding:0;
+	text-align:center;
+}
+
+.site-logo_2{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+header{
+	height:76px;
+	background-color:#00a395;
+	font-family: 'Bebas Neue', cursive;
+}
+
+header a:link{color:black;}
+header a:visited{color:black;}
+
+.header-menu li{
+	display:block;
+	width:12.25%;
+	font-size:18;
+	float:left;
+	text-align:center;
+	list-style:none;
+	line-height:76px;
+	transition:all 0.5s;
+}
+
+.header-menu li:hover{
+	color:gray;
+	background-color:#02e4d2;
+	transition:all 0.8s;
+}
+
+/*headerここまで*/
+
+.images{
+	padding-left:240px;
+}
+
+.profile-img_1{
+	border-top:2px solid white;
+}
+
+.article_1{
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align:center;
+}
+
+.article_1 h3{
+	border-bottom:2px solid gray;
+
+}
+footer {
+	height:40;
+	background-color:#00a395;
+	font-family: 'Bebas Neue', cursive;
+}
+
+footer #copyright{
+	text-align:center;
+}
